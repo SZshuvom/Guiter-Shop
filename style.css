@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 #banner{
-    background-image: linear-gradient(rgba(0,0,0,0.5), #009688), url(image/music-musical-instrument-guitar-two-dark-background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), #009688), url(image/wp3201587.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -47,7 +47,7 @@
     transition: 0.5s;
 }
 .banner-btn a span{
-    width: 50%;
+    width: 0%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -58,7 +58,6 @@
 }
 .banner-btn a:hover span{
     width: 100%;
-    
 }
 .banner-btn a:hover{
     color: black;
