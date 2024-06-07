@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Shop</title>
+    <meta name="viewport" content="width =device-width, initial-scale= 1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<section id="banner">
+    <img src="image/logo.png" class="logo">
+    <div class="banner-text">
+        <h1>Guiter Shop</h1>
+        <p>Chouse your Guitar and Vives  with Mushic</p>
+        <div class="banner-btn">
+            <a href="#"><span></span> Find Out</a>
+            <a href="#"><span></span>Read More</a>
+        </div>
+    </div>
+    
+</section>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Model</a></li>
+
+            
+            
+        </ul>
+    </nav>
+    <div id="manuBtl">
+        <img src="image/menu.png" id="menu">
+    </div>
+</div>
+<!-- -------features--------->
+ <section id="features">
+    <div class="title-text">
+        <p>FEATURES</p>
+        <h1>Guitar</h1>
+    </div>
+    <div class="feature-box">
+        <div class="feature">
+            <h1>Guiter Band</h1>
+            <div class="feature-desc">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-guitar"></i>
+                    
+                </div>
+                <div class="feature-text">
+                    <p>The guitar is a string instrument which is played by plucking the strings. <br>The main parts of a guitar are the body, the fretboard, the headstock and the strings.<br>Guitars are usually made from wood or plastic.Their strings are made of steel or nylon.</p>
+                </div>
+            </div>
+        </div>
+        <div class="feature-img">
+            <img src="image/Guiter.jpg">
+        </div>
+    </div>
+ </section>
+
+
+
+
+
+
+
+<script>
+    var menuBtl= document.getElementById("manuBtl")
+    var sideNav= document.getElementById("sideNav")
+    var menu= document.getElementById("menu")
+    sideNav.style.right="-250px";
+
+    menuBtl.onclick= function(){
+        if(sideNav.style.right=="-250px"){
+            sideNav.style.right="0";
+        }
+        else{
+            sideNav.style.right="-250px"; 
+        }
+    }
+</script>  
+</body>
+</html>
